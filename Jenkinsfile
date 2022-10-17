@@ -23,8 +23,12 @@ agent any
 
             stage("Sonar Test") {
             steps {
-                echo "Sonar is ready"
-                sh 'mvn sonar:sonar'
+               
+             sh 'mvn sonar:sonar -Dsonar.projectKey=a -Dsonar.host.url=http://192.168.48.0:9000 -Dsonar.login=d6a5b4ab1830302b9a63e1e90cca5809d993af8b'
+
+              
+                 
+               
 
             }
         }
