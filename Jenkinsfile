@@ -21,13 +21,7 @@ agent any
         }
         
 
-            stage("Sonar Test") {
-            steps {
-               
-             sh 'mvn sonar:sonar -Dsonar.projectKey=a -Dsonar.host.url=http://192.168.1.50:9000 -Dsonar.login=d6a5b4ab1830302b9a63e1e90cca5809d993af8b'
-
-              
-                 
+                
                
 
             }
