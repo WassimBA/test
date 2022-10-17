@@ -43,7 +43,8 @@ agent any
         nexusPublisher nexusInstanceId: 'nexus', 
             nexusRepositoryId: 'maventest', 
             packages: [[$class: 'MavenPackage',
-                        mavenAssetList: [[classifier: '', extension: '', filePath: '/var/lib/jenkins/workspace/test/target/']], 
+                        mavenAssetList: [[classifier: '', extension: '', filePath: '/var/lib/jenkins/workspace/test/target/tpAchatProject-1.0.jar
+']], 
                         mavenCoordinate: [artifactId: 'spring-boot-starter-parent', 
                                           groupId: 'org.springframework.boot',
                                           packaging: 'jar', 
