@@ -5,7 +5,7 @@ agent any
 
         stage ("Git checkout "){
             steps{
-        git branch: 'main', 
+        git branch: 'rachidtest', 
             url: 'https://github.com/WassimBA/test.git'
             }
         
@@ -24,8 +24,8 @@ agent any
                 
                
 
-            }
-        }
+            
+        
            stage ('Scan and Build Jar File') {
             steps {
                withSonarQubeEnv(installationName: 'Sonar', credentialsId: 'sonartest') {
