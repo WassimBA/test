@@ -15,6 +15,7 @@ agent any
                 stage("Build & test Project") {
             steps {
                 echo "Build & test Project"
+                sh 'mvn install'
                 sh 'mvn clean package -DskipTests=true'
             }
         }
