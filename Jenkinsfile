@@ -5,7 +5,7 @@ agent any
 
         stage ("Git checkout "){
             steps{
-        git branch: 'wassim_branch', 
+        git branch: 'main', 
             url: 'https://github.com/WassimBA/test.git'
             }
         
