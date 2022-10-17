@@ -43,7 +43,7 @@ agent any
                      packages: [[$class: 'MavenPackage',
                                  mavenAssetList: [[classifier: '', 
                                                    extension: '', 
-                                                   filePath: '/target/tpAchatProject-1.0.0.jar']], 
+                                                   filePath: '/target/tpAchatProject-1.0.jar']], 
                                  mavenCoordinate: [artifactId: 'spring-boot-starter-parent', 
                                                    groupId: 'org.springframework.boot', 
                                                    packaging: 'jar', 
