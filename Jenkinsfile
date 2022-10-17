@@ -3,7 +3,7 @@ agent any
      environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "1192.168.48.0:8081"
+        NEXUS_URL = "192.168.48.0:8081"
         NEXUS_REPOSITORY = "nexus-repo"
         NEXUS_CREDENTIAL_ID = "nexus"
     }
@@ -75,4 +75,5 @@ agent any
     
     }
 
+}
 }
