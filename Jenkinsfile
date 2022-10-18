@@ -25,7 +25,13 @@ agent any
                 sh 'mvn clean package -DskipTests=true'
             }
         }
-        
+         stage("unit test") {
+            steps {
+           
+                 sh 'mvn test'
+            
+            }
+            }
 
             stage("Sonar Test") {
             steps {
